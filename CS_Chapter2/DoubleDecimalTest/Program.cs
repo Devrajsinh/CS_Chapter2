@@ -9,6 +9,10 @@ namespace DoubleDecimalTest
     {
         static void Main(string[] args)
         {
+            double SomeMoney = 25.73;
+            Console.WriteLine("the money is $(0) exactly",
+                SomeMoney);
+        }
         }
     }
-}
+
