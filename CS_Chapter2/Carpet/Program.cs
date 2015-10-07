@@ -10,7 +10,7 @@ namespace Carpet
         static void Main(string[] args)
         {
             double SomeMoney = 25.73;
-            Console.Writeline("the money is $(0) exactly",
+            Console.WriteLine("the money is $(0) exactly",
                 SomeMoney);
         }
     }
