@@ -9,6 +9,12 @@ namespace Carpet
     {
         static void Main(string[] args)
         {
+            int width = 32;
+            int length = 10;
+            double price = 3.35;
+
+            double cost = width * length * price;
+
 
         }
     }
