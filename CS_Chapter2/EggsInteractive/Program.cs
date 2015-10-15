@@ -9,16 +9,24 @@ namespace EggsInteractive
     {
         static void Main(string[] args)
         {
+            string chicken, chicken2, chicken3, chicken4;
+            int egg, egg2, egg3, egg4, total, dozen, eggs;
             Console.WriteLine("Enter the first integer");
-            firstString = Console.ReadLine();
-            first = Convert.ToInt32(firstString);
-
+            chicken = Console.ReadLine();
+            egg = Convert.ToInt32(chicken);
             Console.WriteLine("Enter the second integer");
-            secondString = Console.ReadLine();
-            second = Convert.ToInt32(secondString);
-
-            sum = first + second;
-            Console.WriteLine ("{0}, the sum of {1} and {2} is {3}", first, second, sum; 
+            chicken2 = Console.ReadLine();
+            egg2 = Convert.ToInt32(chicken2);
+            Console.WriteLine("Enter the third integer");
+            chicken3 = Console.ReadLine();
+            egg3 = Convert.ToInt32(chicken3);
+            Console.WriteLine("Enter the fourth integer");
+            chicken4 = Console.ReadLine();
+            egg4 = Convert.ToInt32(chicken4);
+            total = egg + egg2 + egg3 + egg4;
+            dozen = total % 12;
+            eggs = total / 12;
+            Console.WriteLine ("Out of {0} eggs, there are {1} dozens and {2} eggs.", total, dozen, eggs); 
         }
     }
 }
